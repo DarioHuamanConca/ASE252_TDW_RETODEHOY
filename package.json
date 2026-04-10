@@ -1,0 +1,24 @@
+{
+  "name": "ase252_tdw_retodehoy",
+  "version": "1.0.0",
+  "description": "Flask app with Tailwind CSS",
+  "main": "app.py",
+  "scripts": {
+    "tailwind:build": "tailwindcss -i ./static/css/input.css -o ./static/css/output.css --watch",
+    "start": ".\\.venv\\Scripts\\python app.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarioHuamanConca/ASE252_TDW_RETODEHOY.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarioHuamanConca/ASE252_TDW_RETODEHOY/issues"
+  },
+  "homepage": "https://github.com/DarioHuamanConca/ASE252_TDW_RETODEHOY#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
